@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(234, 234, 234);
+}
+
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(196, 196, 196);
+    padding: 20px;
+    box-shadow: 2px 0 5px black;
+    margin-bottom: 10px;
+}
+
+nav{
+    margin: 20px;
+}
+
+nav ul{
+    max-width: 420px;
+    margin: auto;
+    list-style-type: none;
+    padding: 10px;
+    border-top:4px double red ;
+    text-align: center;
+}
+
+nav ul > li{
+    display: inline-block;
+    width: 120px;
+    background-color: rgb(152, 153, 153);
+    border-radius: 5px;  
+}
+
+main{
+    font-family: monospace;
+    text-align: justify;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+article h2{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+article p{
+    padding: 10px;
+}
