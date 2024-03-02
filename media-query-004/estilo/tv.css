@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    background-image: url(../imagens/back-tv.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+
+main#pai-img{
+
+    & #celular{
+        display: none;
+        margin: auto;
+    }
+
+    & #impressao{
+        display: none;
+        margin: auto;
+    }
+
+    & #pc{
+        display: none;
+        margin: auto;
+    }
+
+    & #tablet{
+        display: none;
+        margin: auto;
+    }
+
+    & #tv{
+        display: block;
+        margin: auto;
+    }
+}
