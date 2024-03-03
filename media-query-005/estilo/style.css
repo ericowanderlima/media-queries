@@ -61,7 +61,10 @@ header{
     transition: 0.2s;
     transform: translate(2px, -2px);
     box-shadow: 0 0 5px white;
+    color: rgb(255, 255, 255);
    }
+
+
 }
 
 main{
