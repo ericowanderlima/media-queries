@@ -16,35 +16,36 @@ body{
 header{
     background-color: rgba(113, 29, 29, 0.482);
     margin-bottom: 20px;
-
+    
     & h1{
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.838);
+        
     }
 
-    & ul{
-        display: inline-block;
-        width: 100%;
-        background-color: white; 
+    & nav{
+        width: 100vw;
+        background-color: rgb(128, 33, 33);
+    }
+
+    & a{
+       padding: 10px;
     }
 
     & li{
         display: inline-block;
-        border: 1px solid black;  
+        border: 1px solid black;
+        width: 80px;
+        text-align: center;
     }
 
     & a{
-        width: 100px;
-        display: inline-block;
+        background-color: white;
+        display: block;
+        border-radius: 10px 10px 0 0;
         text-decoration: none;
-        text-align: center;  
-        padding: 10px;
     }
 
-    & a:hover{
-        background-color: lightgray;
-        color: black;
-    }
+
 }
 
 main{
@@ -53,6 +54,7 @@ main{
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0 0 10px black;
 
     & article{
         text-indent: 30px;
