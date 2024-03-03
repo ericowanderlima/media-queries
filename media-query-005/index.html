@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilo/style.css" media="all">
     <title>Menu responsivo</title>
 </head>
 <body>
     <header>
         <h1>Criando um menu responsivo</h1>
-        <nav>
+        <span id="menu-burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <nav id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -22,21 +24,34 @@
 
     <main>
         <article>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam. Molestias, quibusdam dicta! Debitis, voluptas. Laudantium, voluptas deleniti dolor, sit ullam dolores maiores placeat distinctio, consequatur omnis eius ducimus hic?</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam. Molestias, quibusdam dicta! Debitis, voluptas. Laudantium, voluptas deleniti dolor, sit ullam dolores maiores placeat distinctio, consequatur omnis eius ducimus hic?</p>
 
-            <p>Animi hic cupiditate distinctio nam voluptate unde similique modi delectus odit aut doloremque quam itaque harum aliquam sapiente aperiam consectetur autem accusamus, voluptatem voluptatum laborum esse ad, repellendus ratione. Unde?</p><br>
+            <p>Animi hic cupiditate distinctio nam voluptate unde similique modi delectus odit aut doloremque quam itaque harum aliquam sapiente aperiam consectetur autem accusamus, voluptatem voluptatum laborum esse ad, repellendus ratione. Unde?</p>
 
-            <p>Voluptates hic sapiente amet officia error in? Eligendi placeat voluptas assumenda, laborum animi error corporis mollitia, maiores fugiat neque, voluptatum dolore! Eos natus inventore neque modi! Exercitationem omnis possimus porro.</p><br>
+            <p>Voluptates hic sapiente amet officia error in? Eligendi placeat voluptas assumenda, laborum animi error corporis mollitia, maiores fugiat neque, voluptatum dolore! Eos natus inventore neque modi! Exercitationem omnis possimus porro.</p>
 
-            <p>Veritatis repudiandae qui reprehenderit illo, neque fugiat? Quidem ratione animi suscipit. Deserunt, quibusdam? Velit accusantium cumque quaerat. Ea itaque, quos commodi suscipit minus exercitationem maiores, reprehenderit et expedita fugiat doloribus!</p><br>
+            <p>Veritatis repudiandae qui reprehenderit illo, neque fugiat? Quidem ratione animi suscipit. Deserunt, quibusdam? Velit accusantium cumque quaerat. Ea itaque, quos commodi suscipit minus exercitationem maiores, reprehenderit et expedita fugiat doloribus!</p>
 
-            <p>Dignissimos omnis blanditiis, eaque dolores error iusto numquam quae laborum ab culpa! Consequuntur est magnam vero incidunt eius voluptates. Ipsa quam repudiandae vitae harum, molestias quaerat debitis obcaecati minima maxime.</p><br>
+            <p>Dignissimos omnis blanditiis, eaque dolores error iusto numquam quae laborum ab culpa! Consequuntur est magnam vero incidunt eius voluptates. Ipsa quam repudiandae vitae harum, molestias quaerat debitis obcaecati minima maxime.</p>
         </article>
     </main>
 
     <footer>
         <p>Este site está sendo criado no curso em video!</p>
     </footer>
+
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block')
+            {
+                itens.style.display = 'none'
+            }
+            else
+            {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
     
 </body>
 </html>
